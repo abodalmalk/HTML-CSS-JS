@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Technology - بيع السير الذاتية الاحترافية</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a;
+            color: #e6e6e6;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            direction: rtl;
+            text-align: right;
+        }
+
+        header {
+            background-color: #C09D37;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .intro {
+            padding: 20px;
+            text-align: center;
+            background: #333333;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .intro h2 {
+            color: #FFD700;
+        }
+
+        .intro p {
+            font-size: 1em;
+        }
+
+        .intro a.center-link {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #ffffff;
+            background: #4B0082;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .intro a.center-link:hover {
+            background: #3a0069;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .product {
+            background: #292929;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            flex-basis: calc(33.333% - 40px);
+            max-width: calc(33.333% - 40px);
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: translateY(-10px);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product-title {
+            font-size: 1.5em;
+            color: #FFD700;
+            margin: 10px 0;
+        }
+
+        .product-price {
+            font-size: 1.1em;
+            color: #e6e6e6;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            color: #cccccc;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #ffffff;
+            background: #4B0082;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: #3a0069;
+        }
+
+        .contact-info {
+            text-align: center;
+            padding: 20px;
+            background-color: #333333;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+
+        .contact-info h2 {
+            color: #FFD700;
+        }
+
+        .contact-info a {
+            color: #FFD700;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #e6e6e6;
+        }
+
+        .social-media {
+            margin-top: 10px;
+        }
+
+        .social-media a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        .social-media a:hover {
+            color: #FFD700;
+        }
+
+        footer {
+            background-color: #4B0082;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            position: relative;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .product {
+                flex-basis: calc(50% - 40px);
+                max-width: calc(50% - 40px);
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product {
+                flex-basis: calc(100% - 40px);
+                max-width: calc(100% - 40px);
+            }
+
+            .intro p, .intro a.center-link, .contact-info p {
+                font-size: 0.9em;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>@PracticalTechnology</h1>
+</header>
+
+<div class="container">
+    <div class="intro">
+        <h2>بيع السير الذاتية الاحترافية</h2>
+        <p>نحن في @PracticalTechnology نمتلك الخبرة والكفاءة اللازمة لتطوير سير ذاتية فريدة تبرز إنجازاتك وتؤكد مؤهلاتك بطريقة احترافية. نقدم لكم سير ذاتية عالية الجودة بأسعار معقولة، حيث يبلغ السعر فقط ثلاثة دنانير لكل سيرة ذاتية.</p>
+        <a href="https://www.instagram.com/aera__practical_technology/" target="_blank" class="center-link">تابعنا على Instagram</a>
+    </div>
+
+    <div class="products">
+        <div class="product">
+            <h2 class="product-title">سيرة ذاتية احترافية</h2>
+            <p class="product-price">السعر: 3 دنانير أردني</p>
+            <p class="product-description">احصل على سيرة ذاتية مخصصة تبرز مهاراتك وخبراتك بأفضل شكل ممكن.</p>
+            <a href="#" class="button">اطلب الآن</a>
+        </div>
+        <!-- يمكنك إضافة المزيد من المنتجات هنا -->
+    </div>
+
+    <div class="contact-info">
+        <h2>التواصل</h2>
+        <p>للاستفسارات والمزيد من المعلومات، يرجى التواصل معنا عبر الوتس اب: <a href="https://wa.me/962775729131" target="_blank">+962 7 7572 9131</a></p>
+        <p>أو عبر البريد الإلكتروني: <a href="mailto:info@practicaltechnology.com">info@practicaltechnology.com</a></p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/aera__practical_technology/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 24px; vertical-align: middle;"> تابعنا على Instagram
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 @PracticalTechnology. جميع الحقوق محفوظة.
+</footer>
+
+</body>
+</html>
